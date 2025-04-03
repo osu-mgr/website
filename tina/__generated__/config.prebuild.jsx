@@ -1218,6 +1218,7 @@ var config = defineStaticConfig({
             type: "object",
             label: "Header",
             name: "header",
+            // @ts-ignore
             fields: [
               {
                 type: "string",
@@ -1301,6 +1302,7 @@ var config = defineStaticConfig({
             type: "object",
             label: "Footer",
             name: "footer",
+            // @ts-ignore
             fields: [
               {
                 type: "object",
